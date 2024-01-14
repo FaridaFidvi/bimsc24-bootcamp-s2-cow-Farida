@@ -1,20 +1,12 @@
-
+/*all background */
 html{
     
     background-color: black; 
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-body{
-
-    margin:0;
-}
-
-div{
-
-    /* put the borders in the inside of container */
-    box-sizing: border-box;
-}
+body{ margin: 0;}
 
 #navbar{
 
@@ -22,22 +14,37 @@ div{
 
 }
 
+div{box-sizing: border-box;}/*so that all borders are inside the box */
 #flex{
 
-    display: flex;
-    height: calc(100vh - 50px);
-}
+   display: flex;/*all text in this one after the other in a line rather than earlier bullets */
+    height: calc(100vh - 50px); /*for the box to go all the way in height */
+
+
+} 
 
 #sidebar{
+    
+    width: 20%;
+    background-color: goldenrod;
 
-    width:30%;
+
+
+
 }
 
-#main{
-    width:70%;
+
+#main{width: 80%;
+    background-color: rgb(255, 255, 255);
+        color: black;
+        background-image: url("C:\Users\FARIDA\Downloads\4892.jpg");
+        background-size: cover;
+        background-position: center;
+
+
 
 }
-
+    
 .container{
 
     border-style: dotted;
