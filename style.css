@@ -2,8 +2,8 @@
 /*this entire file can we written with <style> directly in the html file as well */
 html{
     
-    background-color: black; 
-    color: white;
+    background-color: rgb(238, 235, 139); 
+    color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -27,7 +27,7 @@ div{box-sizing: border-box;}/*so that all borders are inside the box */
 #sidebar{
     
     width: 20%;
-    background-color: goldenrod;
+    background-color: hsl(186, 84%, 93%);
 
 
 
@@ -53,3 +53,10 @@ div{box-sizing: border-box;}/*so that all borders are inside the box */
     border-width: 1px;
 
 }
+
+#des{color: black; 
+font-style: italic;
+font-weight: lighter;
+font-size: small;
+text-align:left;
+}font-style: ;
